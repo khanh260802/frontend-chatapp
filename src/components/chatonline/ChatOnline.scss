@@ -1,0 +1,36 @@
+.chatOnline { 
+    .chatOnlineFriend { 
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        padding: 10px;
+        cursor: pointer;
+        &:hover { 
+            background-color: #f5f5f5;
+        }
+        .chatOnlineImgContainer { 
+            position: relative;
+            border: 1px solid white; 
+            margin-right: 8px;
+            .chatOnlineImg{ 
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .chatOnlineBadege { 
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: limegreen;
+                position: absolute;
+                top: -2px;
+                right: -2px;
+                border: 2px solid white;
+            }
+        }
+        .chatOnlineName { 
+            
+        }
+    }
+}
